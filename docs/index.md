@@ -1,4 +1,4 @@
-# Welcome to Flying Worx Instrument Training
+# Welcome to the Flying Worx Instrument Training Site
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
