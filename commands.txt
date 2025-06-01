@@ -7,3 +7,6 @@ mkdocs new site # created the new site
 
 cd site
     mkdocs serve
+
+
+    https://comp423-25s.github.io/resources/MkDocs/tutorial/#part-4-deploying-with-github-pages
