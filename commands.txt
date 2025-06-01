@@ -1,0 +1,9 @@
+pip install -r requirements.txt
+
+.venv/Scripts/activate
+
+
+mkdocs new site # created the new site
+
+cd site
+    mkdocs serve
