@@ -1,13 +1,10 @@
-name: Deploy to GitHub Pages
-
+name: Deploy Flying-Worx
 on:
   push:
     branches:
       - main
-
 permissions:
   contents: write
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -15,8 +12,6 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
-      - name: Install dependencies
-        run: pip install -r requirements.txt
-      - name: Build and Deploy
-        run: mkdocs gh-deploy --force
+          python-version: 3.x
+      - run: pip install -r requirements.txt
+      - run: mkdocs gh-deploy --force
