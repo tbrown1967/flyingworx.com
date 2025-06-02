@@ -1,7 +1,7 @@
-site_name: flyingworx-training
+site_name: FlyingWorx Instrument Training
 site_url: https://www.flyingworx.com/
 site_author: Timothy Brown
-repo_name: tbrown1967/flyingworx-training
+repo_name: tbrown1967/flyingworx.com
 repo_url: https://github.com/tbrown1967/flyingworx-training
 
 theme:
@@ -15,9 +15,12 @@ theme:
 
 nav:
   - Home: index.md
-  - Guides:
-      - Introduction: guides/intro.md
-      - Advanced Topics: guides/advanced.md
-  - Tutorials:
-      - Setup Guide: tutorials/setup.md
-      - Deployment Guide: tutorials/deployment.md
+  - ACS Reference: https://www.faa.gov/training_testing/testing/acs/instrument_rating_airplane_acs_8.pdf
+  - Preflight Preparation:
+      - Pilot Qualifications: docs/preflight/pilotqualifications.md
+      - Weather Information: docs/preflight/weatherinformation.md
+      - Cross Country Flight Planning: docs/preflight/flightplanning.md
+  - Preflight Procedures:
+      - Aircraft Systems Related to Instrument Flight Rules (IFR) Operations: docs/preflight/aircraftsystems.md
+      - Aircraft Flight Instruments and Navigation Equipment: docs/preflight/flightinstruments.md
+      - Instrument Flight Deck Check: docs/preflight/flightdeck.md
