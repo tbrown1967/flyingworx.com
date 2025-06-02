@@ -2,7 +2,7 @@ site_name: FlyingWorx Instrument Training
 site_url: https://www.flyingworx.com/
 site_author: Timothy Brown
 repo_name: tbrown1967/flyingworx.com
-repo_url: https://github.com/tbrown1967/flyingworx-training
+repo_url: https://github.com/tbrown1967/flyingworx.com
 
 theme:
   name: material
