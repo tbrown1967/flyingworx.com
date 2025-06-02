@@ -15,6 +15,7 @@ theme:
 
 nav:
   - Home: index.md
+  - ACS Reference: https://www.faa.gov/training_testing/testing/acs/instrument_rating_airplane_acs_8.pdf  
   - Preflight Preparation:
       - Pilot Qualifications: docs/preflight/pilotqualifications.md
       - Weather Information: docs/preflight/weatherinformation.md
