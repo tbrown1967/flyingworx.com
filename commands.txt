@@ -2,6 +2,8 @@ pip install -r requirements.txt
 
 .venv/Scripts/activate
 
+To solve this, I noticed that the CNAME file was not created (or copied) on the branch that the Github Pages was configured, just moving the CNAME file to the docs folder (in case of MKDocs), but there is the possibility to change the pipeline to create it on the correct branch.
+
 
 mkdocs new site # created the new site
 
