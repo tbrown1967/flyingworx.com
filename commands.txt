@@ -10,3 +10,15 @@ cd site
 
 
     https://comp423-25s.github.io/resources/MkDocs/tutorial/#part-4-deploying-with-github-pages
+    https://dev.to/jajera/deploying-mkdocs-on-github-pages-with-devcontainers-207a
+
+
+    mkdir -p docs/preflight
+    echo "Pilot Qualifications." > docs/preflight/pilotqualifications.md
+    echo "Weather Information." > docs/preflight/weatherinformation.md
+    echo "Flight Planning." > docs/preflight/flightplanning.md        
+
+
+    echo "Aircraft Systems Related to Instrument Flight Rules (IFR) Operations." > docs/preflight/aircraftsystems.md
+    echo "Aircraft Flight Instruments and Navigation Equipment." > docs/preflight/flightinstruments.md
+    echo "Instrument Flight Deck Check." > docs/preflight/flightdeck.md       
