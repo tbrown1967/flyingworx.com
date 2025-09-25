@@ -1,0 +1,14 @@
+{{ define "main" }}
+<article>
+  <h1>{{ .Title }}</h1>
+  <p class="post-meta">
+    <time datetime="{{ .Date }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+    {{ with .Params.tags }} | Tags:
+      {{ range $i, $t := . }}{{ if $i }}, {{ end }}<a href="/tags/{{ $t | urlize }}/">{{ $t }}</a>{{ end }}
+    {{ end }}
+  </p>
+  <div class="prose max-w-none">
+    {{ .Content }}
+  </div>
+</article>
+{{ end }}

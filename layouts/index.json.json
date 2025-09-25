@@ -1,0 +1,13 @@
+[
+{{- $pages := first 25 ( where site.RegularPages "Type" "posts" ) -}}
+{{- range $i, $p := $pages -}}
+  {{- if $i }},{{ end -}}
+  {
+    "title": {{ $p.Title | jsonify }},
+    "permalink": {{ $p.Permalink | jsonify }},
+    "date": {{ ($p.Date).Format "2006-01-02T15:04:05Z07:00" | jsonify }},
+    "summary": {{ (or $p.Params.description (plainify ($p.Summary))) | jsonify }},
+    "tags": {{ $p.Params.tags | default (slice) | jsonify }}
+  }
+{{- end -}}
+]

@@ -1,0 +1,9 @@
+/* Basic minimal styling; replace with your framework or pipeline */
+body { font-family: system-ui, Arial, sans-serif; line-height: 1.55; margin:0; }
+main { max-width: 860px; }
+a { color: #0b61a4; text-decoration: none; }
+a:hover { text-decoration: underline; }
+pre, code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+.site-header, .site-footer { background:#fafafa; }
+.active { font-weight: 600; }
+.prose img { max-width:100%; height:auto; }
