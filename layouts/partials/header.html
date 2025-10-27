@@ -1,9 +1,0 @@
-<header class="site-header py-4 border-b">
-  <nav>
-    <ul class="flex gap-4 list-none p-0 m-0">
-      {{ range site.Menus.main }}
-        <li><a href="{{ .PageRef | relURL }}" class="{{ if or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}active{{ end }}">{{ .Name }}</a></li>
-      {{ end }}
-    </ul>
-  </nav>
-</header>
